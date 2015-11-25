@@ -1,5 +1,3 @@
-[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](http://github.com/badges/stability-badges)
-
 A quick and dirty utility script that follows all members in an organization.
 
 ## What it does
@@ -11,9 +9,9 @@ A quick and dirty utility script that follows all members in an organization.
 ## For really lazy people
 
 ```
-npm i -g follow-me && follow-me
+npm i -g follow-us && follow-us
 ```
 
 ## Disclaimer
 
-I wrote this in ~ 10 minutes.
+I hacked on this for about ~15 minutes after forking.

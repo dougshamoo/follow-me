@@ -1,24 +1,24 @@
 {
-  "name": "follow-me",
-  "version": "1.0.3",
+  "name": "follow-us",
+  "version": "1.0.0",
   "description": "A quick and dirty utility script that follows all members in an organization.",
   "main": "index.js",
   "bin": {
-    "follow-me": "cmd.js"
+    "follow-us": "cmd.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexanderGugel/follow-me.git"
+    "url": "https://github.com/dougshamoo/follow-us.git"
   },
-  "author": "",
+  "author": "Doug Shamoo <doug.shamoo@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alexanderGugel/follow-me/issues"
+    "url": "https://github.com/dougshamoo/follow-us/issues"
   },
-  "homepage": "https://github.com/alexanderGugel/follow-me",
+  "homepage": "https://github.com/dougshamoo/follow-us",
   "dependencies": {
     "github": "^0.2.3",
     "prompt": "^0.2.14"
