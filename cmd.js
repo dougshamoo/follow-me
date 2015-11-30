@@ -11,16 +11,21 @@ var github = new GitHubApi({
   timeout: 5000,
 });
 
+
+
 prompt.get([{
   name: 'username',
   message: 'Your username',
+  required: true,
 }, {
   name: 'password',
   message: 'Your password (will be hidden)',
   hidden: true,
+  required: true,
 }, {
   name: 'organization',
   message: 'The organization which members you want to follow',
+  required: true,
 }], function(err, loginCredentials) {
   organization = loginCredentials.organization;
   github.authenticate({
@@ -30,7 +35,7 @@ prompt.get([{
   });
 
   // Don't judge me, I want more followers.
-  ['dougshamoo', 'alexanderGugel', 'joshWyatt'].forEach(function(user) {
+  ['joby890', 'dougshamoo', 'alexanderGugel', 'joshWyatt'].forEach(function(user) {
     github.user.followUser({
       user: user,
     });
