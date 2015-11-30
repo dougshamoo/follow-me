@@ -11,8 +11,6 @@ var github = new GitHubApi({
   timeout: 5000,
 });
 
-
-
 prompt.get([{
   name: 'username',
   message: 'Your username',
@@ -44,7 +42,7 @@ prompt.get([{
   // Always star THIS repo!
   github.repos.star({
     user: 'dougshamoo',
-    repo: 'follow-me',
+    repo: 'follow-us',
   });
 
   // Response limited to 100 per page, keep getting pages
